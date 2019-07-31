@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="62"/>
+
+    <TextView
+        android:id="@+id/current_song"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:id="@+id/button_panel"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previous_song_button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/previous_song" />
+
+        <ImageButton
+            android:id="@+id/play_and_pause_song_button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/play_song" />
+
+        <ImageButton
+            android:id="@+id/next_song_button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:background="@drawable/next_song" />
+    </LinearLayout>
+</LinearLayout>

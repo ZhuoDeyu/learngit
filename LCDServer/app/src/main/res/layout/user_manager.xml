@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab_user_manager">
+    <Button
+        android:id="@+id/add_user_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加新用户"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="当前已保存账户"/>
+        <TextView
+            android:id="@+id/saved_user_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginRight="20dp"
+            android:text="0"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/text_for_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
