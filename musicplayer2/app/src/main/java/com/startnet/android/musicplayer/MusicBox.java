@@ -9,7 +9,7 @@ import android.os.SystemClock;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+/**hhhhhhjhjhhh/
 /**
  * 该类为一个单例类，用以保存所有的歌曲信息
  **/
